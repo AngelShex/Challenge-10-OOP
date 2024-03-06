@@ -31,7 +31,7 @@ This SVG Logo maker is designed to help create a logo for anyone who uses it. It
 ### Clone
 
 ```bash
-   git clone git@github.com:fredm23579/pets-bytes.git
+   git clone git@github.com:AngelShex/Challenge-10-OOP.git
 ```
 
 ### Basic Steps:
@@ -40,18 +40,15 @@ This SVG Logo maker is designed to help create a logo for anyone who uses it. It
 3. Navigate through the site to find services like veterinarians, pet stores, grooming services, etc.
 
 ## Technologies Used
-- HTML5
-- CSS
 - JavaScript
-- Foundation CSS Framework
+- Jest
 - jQuery
-- Google Maps JavaScript API
-- Google Maps Places API Library
-- Dog API
-- Browser Geolocation Web API
+- SVG LOGO Maker
+- JASON
+
 
 ## 📚 External Resources
-- [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/places) for location-based services.
+- [YouTubeLink](https://www.youtube.com/watch?v=GJYMcLus3v0&t=18s) SVG information.
 - Dog picture for the home section: [Dog Image](https://inspirationseek.com/38-cute-dog-pictures/)
 - Cat picture for the about section: [Cat Image](https://wildlife-photographs.blogspot.com/2013/07/Cat-Cute-Animals.html)
 
@@ -78,4 +75,4 @@ For support, queries, or suggestions, please open an issue in the repository or 
 
 ---
 
-*This README was last updated on Feb 2, 2024 @ 7:28pm.*
+*This README was last updated on March 6, 2024 @ 12:02pm.*
