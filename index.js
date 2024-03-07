@@ -59,7 +59,7 @@ async function init() {
     console.log("Starting init");
     var svgString = "";
     var svg_file = "logo.svg";
-}
+
 
 // Prompts the user for answers 
 const answers = await inquirer.prompt(questions);
@@ -100,4 +100,20 @@ return;
 	else {
 		console.log("Invalid shape!");
     }
-    user_shape.setColor(user_shape_color);    
+    user_shape.setColor(user_shape_color);  
+    
+// Create a new SVG and add shape and text to it
+var svg = new Svg();
+svg.setTextElement(user_text, user_font_color);
+svg.setShapeElement(user_shape);
+svgString = svg.render();
+
+// Prints shape log
+console.log("Displaying shape:\n\n" + svgString);
+
+console.log("Shape generation complete!");
+console.log("Writing shape to file...");
+writeToFile(svg_file, svgString);
+
+}
+init()
