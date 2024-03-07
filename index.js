@@ -18,3 +18,33 @@ class Svg{
         this.shapeElement = shape.render()
     }
 }
+
+// An array of questions that specifies the properties using inquirer
+const questions = [
+    {
+        type: "input",
+        name: "text",
+        message: "TEXT: Enter up to (3) Characters:",
+    },
+    {
+        type: "input",
+        name: "text-color",
+        message: "TEXT COLOR: Enter a color keyword:",
+    },
+    {
+        type: "input",
+        name: "shape",
+        message: "SHAPE COLOR: Enter a color keyword:",
+    },
+    {
+        type: "list",
+        name: "pixel-image",
+        message: "Choose which Pixel Image you would like?",
+        choices: ["Circle", "Square", "Triangle"],
+    }
+];
+
+// This function helps to write data and adds it to file
+function writeToFile(fileName, data) {
+    
+}
