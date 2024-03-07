@@ -46,5 +46,28 @@ const questions = [
 
 // This function helps to write data and adds it to file
 function writeToFile(fileName, data) {
-    
+    console.log("Writing [" + data + "] to file [" + fileName + "]")
+    filesystem.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Congratulations, you have Generated a logo.svg!");
+    });
+}
+
+async function init() {
+    console.log("Starting init");
+    var svgString = "";
+    var svg_file = "logo.svg";
+}
+
+// Prompts the user for answers 
+const answers = await inquirer.prompt(questions);
+
+// user text
+var user_text = "";
+if (answers.text.length > 0 && answers.text.length < 4) {
+    user_text = answer.text;
+} else {
+    console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
 }
