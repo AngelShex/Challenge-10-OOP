@@ -1,6 +1,6 @@
 // imports the modules and also attaches SVG string with this function
 const filesystem = require('./node_modules/graceful-fs/graceful-fs')
-const inquirer = require = require("inquirer");
+const inquirer = require("inquirer");
 const {Circle, Square, Triangle} = require("./lib/shapes");
 
 class Svg{
@@ -67,7 +67,7 @@ const answers = await inquirer.prompt(questions);
 // user text
 var user_text = "";
 if (answers.text.length > 0 && answers.text.length < 4) {
-    user_text = answer.text;
+    user_text = answers.text;
 } else {
     console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
 return;
