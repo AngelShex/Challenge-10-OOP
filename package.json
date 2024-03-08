@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/AngelShex/Challenge-10-OOP/blob/main/README.md",
     "dependencies": {
-        "inquirer": "^8.2.4"
+        "inquirer": "^8.2.6"
     },
     "script": {
         "test": "jest"
