@@ -4,29 +4,47 @@
 This SVG Logo maker is designed to help create a logo for anyone who uses it. It focuses on generating a three character logo with a choice of shapes.
 
 ## 📝 Description 
-//
+This git bash function and repo is meant to be used for those who want to generate a three character logo with shapes either, Square, Circle, or Triangle. Once entering in node index.js within your personal git bash and cloning code you will see promted questions appear once fully answered your logo will save into your logo.svg file.
 
-## 🐾 User Story
-//
+##  User Story
+As a person who runs a professional business I would like to create a logo that can help my project appear more professional with a generated three character logo. 
 
 ## ✨ Key Features
-- **Location-Based Services**: Harnessing the power of the Google Maps JavaScript API for real-time, precise location data of pet-related services.
-- **User-Friendly Interface**: Designed for ease of use with intuitive navigation and interactive elements.
-- **Responsive Design**: Optimized for various devices and screen sizes to ensure a consistent experience.
-- **Dynamic Content**: Regular updates to provide the most current information about pet services.
+- **Git-Bash**: Using your personal terminal you will use git bash to clone my github code so that you may be able to use the logo maker.
+- **User-Friendly Interface**: Designed for ease of use with intuitive navigation and interactive elements. Along side with notations for what the code run can do. 
+- **SVG-Logo-Maker**: You will also need to download the SVG logo maker extention within your VS code.
+
 
 ## 🔗 Useful Links
-- **Repository**: [GitHub](https://github.com/fredm23579/pets-bytes/)
-- **Live Application**: [Pets-Bytes](https://fredm23579.github.io/pets-bytes/)
+- **Repository**: [GitHub](https://github.com/AngelShex/Challenge-10-OOP)
+- **Live Application**: [OOP-Challenge](https://angelshex.github.io/Challenge-10-OOP/)
 
 ## Usage
+
+1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
+
+2. Open integrated terminal on index.js
+
+3. Enter “node index.js” in the command line
+
+4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+
+5. Once completed a SVG file named "logo.svg" will be created.
+
+6. At your discretion, you may rename the "logo.svg" file to the file name of your choice.
+
+7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
+
+8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
+
+
 
 ### 🛠️ Installation and Setup
 1. Clone the repository to your local machine.
 2. Install necessary dependencies (if any).
-3. Run the application locally or deploy it using your preferred web server.
-![screenshot of repository](<./assets/imgs/Screen Shot 2024-02-13 at 8.50.32 PM.png>)
-![screenshot of repository](<./assets/imgs/image.png>)
+3. Run the application locally.
+![screenshot of questions asked](<Screen Shot 2024-03-07 at 7.03.25 PM.png>)
+![screenshot of example](../../../Desktop/example1triangle.svg)
 
 ### Clone
 
@@ -35,9 +53,10 @@ This SVG Logo maker is designed to help create a logo for anyone who uses it. It
 ```
 
 ### Basic Steps:
-1. Open the web application.
-2. Allow location access to enable location-based service discovery.
-3. Navigate through the site to find services like veterinarians, pet stores, grooming services, etc.
+
+1. Clone the SSH key from my git hub account.
+2. Download all of the nessicary dependencies.
+3. Type node index.js within your personal git bash or VS code.
 
 ## Technologies Used
 - JavaScript
@@ -48,31 +67,23 @@ This SVG Logo maker is designed to help create a logo for anyone who uses it. It
 
 
 ## 📚 External Resources
-- [YouTubeLink](https://www.youtube.com/watch?v=GJYMcLus3v0&t=18s) SVG information.
-- Dog picture for the home section: [Dog Image](https://inspirationseek.com/38-cute-dog-pictures/)
-- Cat picture for the about section: [Cat Image](https://wildlife-photographs.blogspot.com/2013/07/Cat-Cute-Animals.html)
 
-- Additional images and resources:
-  
-  - [Facebook Profile Image](https://www.facebook.com/profile.php?id=61556419702881&mibextid=LQQJ4d)
-  - [Fear Free Happy Homes Image](https://www.fearfreehappyhomes.com/wp-content/uploads/2021/03/bigstock-Young-Woman-Taking-Photo-Of-Cu-374979739.jpg)
-  - [Random Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LrToBEtSXKSw20rqoDtiyFCe2QvPhP2MFg&usqp=CAU)
-  - [PoweredByStratonautsDogAPI](https://dogapi.dog/terms)
-  - [Dog API](https://dogapi.dog/terms)
-  - [Dog Doctor](https://img.freepik.com/free-vector/cute-dog-doctor-with-stethoscope-cartoon-vector-icon-illustration-animal-healthcare-icon-isolated_138676-5182.jpg?size=626&ext=jpg&ga=GA1.2.243159164.1707266342&semt=ais)
-  - [Cat getting ready to shower](https://assets3.thrillist.com/v1/image/3059921/1584x832/scale;webp=auto;jpeg_quality=60;progressive.jpg)
-  - [Lady Walking Her Dog](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSzxdNpR31Chfeg38hWzWICEPBWIS88yD0Ew&usqp=CAU)
-  - [Pet Food Img](https://media.istockphoto.com/id/1368129686/vector/pets-with-bowl-food.jpg?s=612x612&w=0&k=20&c=9vV5CZjdchE_w-n0BUt62s_CAVP3Fg_YTT5kNDqTTZA=)
+
+- Shapes pictures in example section: [Example 1 Image](!examples/example1triangle.svg)[Example 2 Image](![examples/example1triangle.svg)](examples/example2circle.svg) [Example 3 Image](examples/example3square.svg)
+
+- [YouTubeLink](https://www.youtube.com/watch?v=emFMHH2Bfvo) (https://www.youtube.com/watch?v=GJYMcLus3v0&t=18s) SVG information.
+
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
 
 ## Contributing
-Contributions to Pets-Bytes are welcome. Please follow the standard fork-pull request workflow. Ensure you include detailed descriptions in your pull requests.
+Contributions to this SVG Logo Maker are welcome. Please follow the standard fork-pull request workflow. Ensure you include detailed descriptions in your pull requests.
 
 ## Support
 For support, queries, or suggestions, please open an issue in the repository or contact the project maintainers.
 
 ---
 
-*This README was last updated on March 6, 2024 @ 12:02pm.*
+*This README was last updated on March 7, 2024 @ 7:33pm.*
